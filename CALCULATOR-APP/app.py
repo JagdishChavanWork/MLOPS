@@ -1,5 +1,6 @@
 from calc_function import do_addition, do_subtraction, do_division
 from multiply import do_multiplication
+from area import calculate_area_rectangle
 def main():
     print("Welcome to the calculator app!")
     print("""\nselect the function from the given option:
