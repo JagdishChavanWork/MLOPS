@@ -1,9 +1,11 @@
 from calc_function import do_addition, do_subtraction
+from multiply import do_multiplication
 def main():
     print("Welcome to the calculator app!")
     print("""\nselect the function from the given option:
             1. Addition
             2. Subtraction
+            3. Multiplication
         """)
     
 
@@ -17,6 +19,9 @@ def main():
     
     elif user_input == "2":
         result = do_subtraction(a, b)
+    
+    elif user_input == "3":
+        result = do_multiplication(a, b)
 
     print("Result: ", result)
 
